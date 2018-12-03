@@ -1,0 +1,63 @@
+footer.footer {
+  #mc_embed_signup_scroll {
+    .mc-field-group {
+      display: inline-block;
+    }
+
+    .clear {
+      display: block;
+      padding-top: 0.5rem;
+    }
+  }
+
+  .lower-footer-widget {
+    padding: 0;
+  }
+
+  .widget {
+    margin-bottom: 0;
+  }
+
+  .widgettitle,
+  .textwidget {
+    text-align: center;
+  }
+
+  .widgettitle {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: $link;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($link, 5%);
+      text-decoration: underline;
+    }
+  }
+}
+
+#mc_embed_signup {
+  #mc_embed_signup_scroll {
+    h2 {
+      color: $grey-darker;
+    }
+
+    input[type=text],
+    input[type=email] {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    input[type=submit] {
+      background-color: $success;
+      color: $white;
+      border: 1px solid $white;
+
+      &:hover {
+        background-color: darken($success, 10%);
+      }
+    }
+  }
+}

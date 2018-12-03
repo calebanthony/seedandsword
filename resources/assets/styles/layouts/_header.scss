@@ -1,0 +1,20 @@
+#header-menu {
+  padding-bottom: 3rem;
+}
+
+#header-profiles {
+  align-self: flex-start;
+  margin-top: 2rem;
+}
+
+.menu-main-menu-container li {
+  @extend .level-item;
+  @extend .is-size-4;
+  @extend .is-size-5-mobile;
+  @extend .is-marginless;
+}
+
+.menu-main-menu-container {
+  @extend .level;
+  @extend .is-mobile;
+}
