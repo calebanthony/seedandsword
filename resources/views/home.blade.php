@@ -9,7 +9,11 @@
         </div>
         <div class="column is-6 has-text-centered">
           <h1 class="title is-size-1 is-size-3-mobile">WELCOME</h1>
-          <p>Here's a couple sentences that share what we believe.</p>
+          <p>Welcome to Seed and Sword! We are a husband and wife team that loves Jesus and people, and are here to share the good
+        news of Jesus Christ. Our hope is that anything we speak, create, or write, pushes you to a deeper understanding of our
+        loving Creator. We don’t have all of the answers. As a Youtuber, and a creative momma, we believe in the power of our
+        testimonies. No matter where you are in your walk, we hope that Seed and Sword is a place where you can come to find
+        growth, and be equipped to fight the daily battle that we all face.</p>
         </div>
         <div class="column is-3">
           <img src="{{ get_stylesheet_directory_uri() }}/assets/images/sword.png" alt="Sword">
